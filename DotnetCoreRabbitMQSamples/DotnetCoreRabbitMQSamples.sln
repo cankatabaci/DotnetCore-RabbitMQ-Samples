@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerAdmission", "Consum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerAppointment", "ConsumerAppointment\ConsumerAppointment.csproj", "{19ED1CC6-3519-44F1-A68A-70FD0139719A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpcPublisher", "RpcPublisher\RpcPublisher.csproj", "{DAA5A5C7-9BA1-4BB8-A88D-1AFC1825203C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpcConsumer", "RpcConsumer\RpcConsumer.csproj", "{EC55027D-D3E0-4888-95C8-3D9B73CBC346}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{19ED1CC6-3519-44F1-A68A-70FD0139719A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19ED1CC6-3519-44F1-A68A-70FD0139719A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19ED1CC6-3519-44F1-A68A-70FD0139719A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA5A5C7-9BA1-4BB8-A88D-1AFC1825203C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA5A5C7-9BA1-4BB8-A88D-1AFC1825203C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA5A5C7-9BA1-4BB8-A88D-1AFC1825203C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA5A5C7-9BA1-4BB8-A88D-1AFC1825203C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC55027D-D3E0-4888-95C8-3D9B73CBC346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC55027D-D3E0-4888-95C8-3D9B73CBC346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC55027D-D3E0-4888-95C8-3D9B73CBC346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC55027D-D3E0-4888-95C8-3D9B73CBC346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
